@@ -15,7 +15,7 @@ const League = ({ league }) => {
 
     return (
         <div className="col-md-3 mt-5">
-            <div className="rounded bg-white shadow p-5 h-100">
+            <div className="rounded bg-white shadow p-5 h-100 text-center">
                 <img className="img-fluid p-3" src={details.strBadge || pic} alt="Image not found"/>
                 <h4>{league.strLeague}</h4>
                 <p>Sports Type: {league.strSport}</p>
